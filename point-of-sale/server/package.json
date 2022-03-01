@@ -16,6 +16,10 @@
     },
     "dependencies": {
         "@solana/pay": "file:../../core",
+        "@solana/wallet-adapter-phantom": "^0.9.3",
+        "@solana/wallet-adapter-react": "^0.15.3",
+        "@solana/wallet-adapter-react-ui": "^0.9.5",
+        "@solana/wallet-adapter-torus": "^0.11.11",
         "@solana/web3.js": "^1.32.0",
         "bignumber.js": "^9.0.2",
         "bs58": "^4.0.1",
@@ -23,8 +27,13 @@
         "cors": "^2.8.5",
         "express-rate-limit": "^5.5.1",
         "next": "^12.0.10",
+        "next-svgr": "^0.0.2",
+        "postcss-flexbugs-fixes": "^5.0.2",
+        "postcss-nested": "^5.0.6",
+        "postcss-preset-env": "^7.4.1",
         "react": "^17.0.2",
-        "react-dom": "^17.0.2"
+        "react-dom": "^17.0.2",
+        "react-responsive": "^9.0.0-beta.6"
     },
     "devDependencies": {
         "@types/bs58": "^4.0.1",
